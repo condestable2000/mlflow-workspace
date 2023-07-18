@@ -4,5 +4,5 @@
 # Based on https://github.com/artificially-ai/ai-engineering/blob/master/scripts/copy_know_hosts.sh
 
 docker cp mlflow:/root/.ssh/known_hosts .
-docker cp known_hosts jupyter:/home/jovyan/.ssh/known_hosts
+docker cp known_hosts jupyter:/home/mlflowuser/.ssh/known_hosts
 rm known_hosts
