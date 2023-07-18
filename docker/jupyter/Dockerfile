@@ -15,7 +15,7 @@ RUN conda install --quiet --yes \
         'tqdm==4.64.1' \
         'jupyter_contrib_nbextensions==0.5.1' \
         'jupyter_nbextensions_configurator==0.4.1' \
-        'r r-irkernel' && \
+        'r-irkernel==1.3.2' && \
     conda build purge-all && \
     fix-permissions $CONDA_DIR
 
